@@ -23,16 +23,16 @@ function ShowBlog() {
   return (
     <Container>
       <Row>
-        {blogs.map((v, i) => {
+        {blogs.map((val, i) => {
           return (
             <Col md="auto">
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={v.image} />
+                <Card.Img variant="top" src={val.image} />
                 <Card.Body>
-                  <Card.Title>{v.title}</Card.Title>
-                  <Card.Title>{v.bloggerName}</Card.Title>
+                  <Card.Title>{val.title}</Card.Title>
+                  <Card.Title>{val.bloggerName}</Card.Title>
                   <Card.Text>{val.description.slice(0, 100)}...</Card.Text>
-                  <Link to={`/blogDetails/${v.id}`}>
+                  <Link to={`/blogDetails/${val.id}`}>
                     <Button variant="primary">View More</Button>
                   </Link>
                 </Card.Body>
