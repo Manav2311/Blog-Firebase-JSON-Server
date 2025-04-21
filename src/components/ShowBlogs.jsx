@@ -23,10 +23,10 @@ function ShowBlog() {
   return (
     <Container>
       <Row>
-        {blogs.map((val, i) => {
           return (
+        {blogs.map((val, i) => {
             <Col md="auto">
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "18rem" ,height:"18rem"}}>
                 <Card.Img variant="top" src={val.image} />
                 <Card.Body>
                   <Card.Title>{val.title}</Card.Title>
@@ -38,8 +38,8 @@ function ShowBlog() {
                 </Card.Body>
               </Card>
             </Col>
+            })}
           );
-        })}
       </Row>
     </Container>
   );
