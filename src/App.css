@@ -1,0 +1,189 @@
+/* Reset & Base */
+/* Header Styles */
+.custom-header {
+    background-color:  #812dee;
+    padding: 10px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.brand-title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-buttons .nav-link-btn {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Button Styles Override */
+.nav-buttons .btn {
+    transition: all 0.3s ease;
+    border-radius: 30px;
+    padding: 6px 18px;
+    font-weight: 500;
+}
+
+.nav-buttons .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    font-size: 1rem;
+    padding: 10px 25px;
+}
+
+/* Feature Cards */
+.feature-card {
+    transition: transform 0.3s ease;
+    min-height: 180px;
+    border-left: 4px solid #0d6efd;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Category Cards */
+.category-card {
+    transition: all 0.3s ease;
+    border-left: 4px solid #20c997;
+}
+
+.category-card:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.03);
+}
+
+/* CTA Section */
+.cta-section {
+    background: #222;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta-section h2 {
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Add Blog Form Styling */
+.add-blog-wrapper {
+    padding: 40px 0;
+}
+
+.add-blog-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #0d6efd;
+}
+
+.add-blog-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.add-blog-form .form-control,
+.add-blog-form .form-select {
+    border-radius: 8px;
+    box-shadow: none;
+    transition: border 0.3s;
+}
+
+.add-blog-form .form-control:focus,
+.add-blog-form .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: none;
+}
+
+.add-blog-form button {
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: 500;
+}
+
+/* Blog Page Styles */
+.blog-section {
+    padding: 40px 0;
+}
+
+.blog-card {
+    width: 100%;
+    max-width: 18rem;
+    margin: auto;
+    transition: transform 0.3s ease;
+    border-left: 4px solid #0d6efd;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card .card-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.blog-filter-buttons {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-filter-buttons .btn {
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 6px 16px;
+    transition: 0.3s ease;
+}
+
+.blog-filter-buttons .btn:hover {
+    transform: scale(1.05);
+}
